@@ -1,0 +1,64 @@
+/**
+ * Theme Name: Literatura Digital UFMT
+ * Description: Tema para o site da Literatura Digital UFMT
+ * Author: mateuswetah
+ * Template: blocksy
+ * Text Domain: literatura-digital-ufmt
+ */
+
+.home .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+    border: none;
+    border-bottom: 4px solid white;
+    border-radius: 0;
+    padding: 0;
+    padding-left: 12px;
+}
+.home .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper input {
+    color: white;
+}
+
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input {
+    border-radius: 4px !important;
+}
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input::placeholder {
+    color: white;
+}
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input+button {
+    --tainacan-block-gray3: white;
+}
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input:focus,
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input:active,
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input:hover {
+    color: var(--heading-color, var(--heading-2-color, var(--headings-color)));
+    width: 80% !important;
+}
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input::placeholder:focus,
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input::placeholder:active,
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input::placeholder:hover {
+    color: var(--paletteColor3, #786767) !important;
+}
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input:focus+button,
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input:active+button,
+.wp-block-tainacan-search-bar.is-style-alternate #tainacan-search-bar-block input#tainacan-search-bar-block_input:hover+button {
+    --tainacan-block-gray3: var(--paletteColor1, #670800);
+}
+
+.theme-items-list {
+    --boxShadow: none;
+    --has-classic-forms: var(--true);
+}
+
+.theme-items-list .items-list-area {
+    --tainacan-item-background-color: #f2f2f2;
+    --tainacan-item-hover-background-color: #e6e6e6;
+}
+
+.tainacan-collection-header {
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .tainacan-collection-header .page-title {
+        --fontSize: 42px;
+    }
+}
